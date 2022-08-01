@@ -1,6 +1,6 @@
-main{
+.first{
     background-color: #D3E7F6;
-    padding: 50px;
+    padding: 100px;
 }
 
 .titre div{
@@ -11,7 +11,6 @@ main{
 }
 
 .spiner{
-    margin-left: 200px;
     display: flex;
     gap: 60px;
     overflow: auto;
@@ -48,4 +47,25 @@ main{
 .card .bouton:hover{
     background-color: #000000;
     color: #D3E7F6;
+}
+
+.presentation{
+    display: flex;
+    height: 80vh;
+    background-color: #D3E7F6;
+}
+
+.presentation-left{
+    width: 50%;
+    background-image: url(../images/image3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.presentation-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px;
 }
