@@ -1,0 +1,23 @@
+/* width */
+.spiner::-webkit-scrollbar {
+    height: 3px;
+    border-radius: 10px;
+}
+  
+  /* Track */
+.spiner::-webkit-scrollbar-track {
+    background: #6B6765;
+    border-radius: 10px;
+}
+  
+  /* Handle */
+.spiner::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.spiner::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+  
