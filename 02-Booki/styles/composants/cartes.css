@@ -27,7 +27,43 @@
 
 /*Activité*/
 
+.titre{
+    background-color: red;
+    height: 50px;
+}
+
 .carte_activite_1 .image{
+    background-image: url(../../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+
+.carte_activite_2 .image{
     background-image: url(../../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: cover;
+    height: 80%;
+}
+
+.carte_activite_3 .image{
+    background-image: url(../../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+.carte_activite_4 .image{
+    background-image: url(../../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+
+.carte_activite_5 .image{
+    background-image: url(../../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+}
+
+.carte_activite_6 .image{
+    background-image: url(../../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
 }

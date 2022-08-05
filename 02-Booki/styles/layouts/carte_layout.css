@@ -57,3 +57,31 @@
 .carte_activite .titre{
     margin: 20px;
 }
+
+.activite_separation {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 500px;
+}
+
+.carte_activite_1 {
+    grid-area: 1 / 1 / 4 / 2;
+}
+.carte_activite_2 {
+    grid-area: 1 / 2 / 3 / 3;
+}
+.carte_activite_3 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+.carte_activite_4 {
+    grid-area: 1 / 3 / 4 / 4;
+}
+.carte_activite_5 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+.carte_activite_6 {
+    grid-area: 2 / 4 / 4 / 5;
+}
