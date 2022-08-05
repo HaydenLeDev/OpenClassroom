@@ -1,3 +1,9 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .filtre{
     display: flex;
     flex-direction: column;
@@ -45,7 +51,7 @@
     height: 44px;
 }
 
-.filtre_theme_items h3{
+.filtre_theme_items h4{
     padding: 0px 15px 0px 15px;
 }
 
@@ -76,8 +82,14 @@
 .hebergement_marseille{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
+    padding: 30px;
+
+    background-color: var(--gris-claire);
+    border-radius: 20px;
+    
 }
+
 
 .hebergement_marseille .ligne{
     display: flex;
@@ -85,6 +97,18 @@
 }
 
 .hebergement_populaires{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+
+    background-color: var(--gris-claire);
+    border-radius: 20px;
+}
+
+.hebergement_populaires .titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
