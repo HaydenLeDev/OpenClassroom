@@ -1,0 +1,18 @@
+/*Recherche lieu*/
+
+.filtre_recherche .icone{
+    border-radius: 15px 0px 0px 15px;
+    background-color: var(--gris-claire);
+}
+
+
+/*Filtre theme*/
+
+.filtre_theme_items .icone{
+    background-color: var(--bleu-claire);
+    border-radius: 50px;
+    color:var(--bleu-fonce)
+}
+
+
+

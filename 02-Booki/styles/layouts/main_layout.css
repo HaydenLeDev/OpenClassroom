@@ -1,0 +1,66 @@
+.filtre{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 50px;
+}
+
+/*Recherche lieu*/
+.filtre_recherche{
+    display: flex;
+    height: 50px;
+}
+
+
+.filtre_recherche input[type=text] {
+    padding-left: 10px; 
+    border-radius: 0px;
+}
+
+.filtre_recherche button{
+    padding: 0px 10px 0px 10px;
+}
+
+/*Filtre theme*/
+
+.filtre_theme{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.filtre_theme_items{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 44px;
+}
+
+.filtre_theme_items h3{
+    padding: 0px 15px 0px 15px;
+}
+
+.filtre_theme_items .icone{
+    margin: -3px;
+}
+
+/*Filtre info*/
+.filtre_info{
+    display: flex;
+    align-items: center;
+
+}
+
+.filtre_info .icone{
+    height: 20px;
+    width: 20px;
+}
