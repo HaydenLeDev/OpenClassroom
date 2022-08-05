@@ -1,0 +1,10 @@
+.hebergement_marseille{
+    background-color: var(--gris-claire);
+    border-radius: 20px;
+}
+
+
+.hebergement_populaires{
+    background-color: var(--gris-claire);
+    border-radius: 20px;
+}
