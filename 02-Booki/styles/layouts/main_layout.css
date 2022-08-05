@@ -57,10 +57,34 @@
 .filtre_info{
     display: flex;
     align-items: center;
-
+    gap: 15px;
 }
 
 .filtre_info .icone{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
+
+/*Hebergement*/ 
+
+.hebergement{
+    display: flex;
+    gap: 35px;
+    margin-left: 60px ;
+}
+
+.hebergement_marseille{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hebergement_marseille .ligne{
+    display: flex;
+    gap: 30px;
+}
+
+.hebergement_populaires{
+    
+}
+

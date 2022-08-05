@@ -14,5 +14,9 @@
     color:var(--bleu-fonce)
 }
 
-
-
+/*Filtre info*/
+.filtre_info .icone{
+    border: solid 2px var(--gris-claire);
+    border-radius: 20px;
+    color:var(--bleu-fonce)
+}
