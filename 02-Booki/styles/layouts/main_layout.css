@@ -1,6 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 50px;
 }
 
@@ -40,7 +41,7 @@ main {
 .filtre_theme {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
 }
 
 .filtre_theme_items {
@@ -74,8 +75,9 @@ main {
 
 .hebergement {
     display: flex;
-    gap: 35px;
-    margin-left: 60px;
+    justify-content: space-between;
+    /*margin: 0px 120px 0px 60px;*/
+    width: 100%;
 }
 
 .hebergement_marseille {
@@ -83,6 +85,7 @@ main {
     flex-direction: column;
     gap: 40px;
     padding: 30px;
+    width: 67%;
 }
 
 .hebergement_marseille .ligne {
@@ -95,6 +98,7 @@ main {
     flex-direction: column;
     gap: 40px;
     padding: 30px;
+    width: 33%;
 }
 
 .hebergement_populaires .titre {
@@ -104,7 +108,11 @@ main {
 }
 
 /* activité */
-.activite{
+
+.activite h2{
     margin-left: 60px;
 }
 
+.activite_separation{
+    margin: 30px 110px 60px 60px;
+}

@@ -11,3 +11,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
