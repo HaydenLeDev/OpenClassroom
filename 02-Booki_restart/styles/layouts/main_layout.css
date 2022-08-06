@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}
+
+.filtre {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 50px;
+}
+
+/*Recherche lieu*/
+.filtre_recherche {
+    display: flex;
+    height: 50px;
+}
+
+.filtre_recherche input[type="text"] {
+    padding-left: 10px;
+    border-radius: 0px;
+}
+
+.filtre_recherche button {
+    padding: 0px 10px 0px 10px;
+}
+
+.recherche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Filtre theme*/
+
+.filtre_theme {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.filtre_theme_responsive{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.filtre_theme_items {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 44px;
+}
+
+.filtre_theme_items h4 {
+    padding: 0px 15px 0px 15px;
+}
+
+.filtre_theme_items .icone {
+    margin: -3px;
+}
+
+/*Filtre info*/
+.filtre_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filtre_info .icone {
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .filtre_theme{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .filtre_theme_responsive{
+        flex-wrap: wrap
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filtre_theme{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .filtre_theme_responsive{
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .recherche{
+        width: 50px;
+    }
+}

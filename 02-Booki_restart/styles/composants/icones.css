@@ -1,0 +1,44 @@
+/*Recherche lieu*/
+
+.filtre_recherche .icone{
+    border-radius: 15px 0px 0px 15px;
+    background-color: var(--gris-claire);
+}
+
+
+/*Filtre theme*/
+
+.filtre_theme_items .icone{
+    background-color: var(--bleu-claire);
+    border-radius: 50px;
+    color:var(--bleu-fonce)
+}
+
+/*Filtre info*/
+.filtre_info .icone{
+    border: solid 2px var(--gris-claire);
+    border-radius: 20px;
+    color:var(--bleu-fonce)
+}
+
+.recherche i{
+    width: 0px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .filtre_recherche .icone{
+        border-radius: 15px 0px 0px 15px;
+        background-color: var(--gris-claire);
+    }
+
+    .recherche i{
+        width: 17px;
+        visibility: visible;
+    }
+
+    .recherche p{
+        width: 0px;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,27 @@
+/*Recherche lieu*/
+
+#input_recherche{
+    border: solid var(--gris-claire) 2px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.recherche{
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    color: var(--blanc);
+    background-color: var(--bleu-fonce);;
+}
+
+/*Filtre theme*/
+
+.filtre_theme_items{
+    border: solid var(--gris-claire) 3px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .filtre_recherche button{
+        margin-left: -10px;
+        border-radius: 15px 15px 15px 15px;
+    }
+}

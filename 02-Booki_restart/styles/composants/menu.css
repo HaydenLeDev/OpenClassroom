@@ -1,3 +1,22 @@
 .liste_menu {
     list-style: none;
 }
+
+.liste_menu li{
+    cursor: pointer;
+}
+
+.liste_menu li:hover{
+    border-top: 3px solid var(--bleu-fonce);
+}
+
+.liste_menu li:hover a{
+    color: var(--bleu-fonce);
+}
+
+@media screen and (max-width: 768px) {
+    .liste_menu li:hover{
+        border-top: none;
+        border-bottom: 3px solid var(--bleu-fonce);
+    }
+}
