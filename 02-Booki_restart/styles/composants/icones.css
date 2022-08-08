@@ -11,11 +11,18 @@
 .filtre_theme_items .icone{
     background-color: var(--bleu-claire);
     border-radius: 50px;
-    color:var(--bleu-fonce)
+    color:var(--bleu-fonce);
+    transition: all 500ms;
+}
+
+.filtre_theme_items:hover .icone{
+    color:var(--bleu-select);
+    background-color: var(--bleu-fonce);
 }
 
 /*Filtre info*/
 .filtre_info .icone{
+    font-size: 12px;
     border: solid 2px var(--gris-claire);
     border-radius: 20px;
     color:var(--bleu-fonce)
@@ -24,6 +31,20 @@
 .recherche i{
     width: 0px;
     visibility: hidden;
+}
+
+
+/* Carte */
+.carte_note i{
+    font-size:12px
+}
+
+.valide{
+    color: var(--bleu-fonce);
+}
+
+.non_valide{
+    color: var(--gris-claire);
 }
 
 @media screen and (max-width: 768px) {

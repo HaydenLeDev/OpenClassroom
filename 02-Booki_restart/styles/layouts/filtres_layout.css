@@ -20,6 +20,13 @@ main {
     height: 50px;
     width: 50px;
 }
+/*Recherche Titre*/
+.filtre_titre{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 
 /*Recherche lieu*/
 .filtre_recherche {
@@ -42,18 +49,22 @@ main {
     justify-content: center;
 }
 
+.recherche p {
+    padding: 0px 11px 0px 11px;
+}
+
 /*Filtre theme*/
 
 .filtre_theme {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .filtre_theme_responsive{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
 }
 
 .filtre_theme_items {
@@ -79,8 +90,8 @@ main {
 }
 
 .filtre_info .icone {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -94,9 +105,14 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+    .filtre{
+        margin-left: 20px;
+    }
+
     .filtre_theme{
         align-items: flex-start;
         flex-direction: column;
+        gap: 15px;
     }
 
     .filtre_theme_responsive{
@@ -106,5 +122,9 @@ main {
 
     .recherche{
         width: 50px;
+    }
+
+    .recherche p {
+        padding: 0px;
     }
 }

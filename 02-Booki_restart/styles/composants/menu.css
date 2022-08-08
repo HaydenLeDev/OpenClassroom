@@ -4,6 +4,7 @@
 
 .liste_menu li{
     cursor: pointer;
+    border-top: 3px solid white;
 }
 
 .liste_menu li:hover{
@@ -14,9 +15,33 @@
     color: var(--bleu-fonce);
 }
 
+#selected{
+    border-top: 3px solid var(--bleu-fonce);
+}
+
+#selected a{
+    color: var(--bleu-fonce);
+}
+
 @media screen and (max-width: 768px) {
+
+    .liste_menu li{
+        cursor: pointer;
+        border-bottom: 3px solid var(--gris-claire);
+        border-top: none;
+    }
+
     .liste_menu li:hover{
         border-top: none;
         border-bottom: 3px solid var(--bleu-fonce);
+    }
+
+    #selected{
+        border-top: none;
+        border-bottom: 3px solid var(--bleu-fonce);
+    }
+    
+    #selected a{
+        color: var(--bleu-fonce);
     }
 }

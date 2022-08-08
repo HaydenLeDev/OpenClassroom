@@ -3,13 +3,22 @@ a{
     color: black;
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
+h1{
+    font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    h4{
-        font-size: 18px;
-    }
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 13px;
+}
+
+p{
+    font-size: 12px;
+}
+
+#input_recherche{
+    font-weight: bold; 
 }

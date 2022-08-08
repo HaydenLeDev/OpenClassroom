@@ -1,0 +1,106 @@
+.hebergement {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0px 60px 0px 60px;
+}
+
+.hebergement_marseille {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    width: 67%;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+}
+
+.hebergement_marseille .ligne {
+    display: flex;
+    gap: 30px;
+}
+
+.hebergement_populaires {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px;
+    width: 33%;
+}
+
+.hebergement_populaires .titre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .hebergement {
+        margin: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .hebergement_marseille .titre{
+        margin-left: 30px;
+    }
+
+    .table{
+       margin: 0px 30px 0px 30px;
+    }
+
+    .hebergement_marseille{
+        padding: 0px;
+    }
+
+    .hebergement_populaires {
+        width: 100%;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .hebergement_populaires .titre{
+        margin: 30px 30px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hebergement {
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+
+    .hebergement_marseille .titre{
+        margin-left: 25px;
+    }
+
+    .hebergement_marseille{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .table{
+        flex-direction: column;
+        margin: 0px 30px 0px 25px;
+    }
+
+    .hebergement_marseille .ligne {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .hebergement_populaires {
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+
+    }
+
+    .hebergement_populaires .titre{
+        margin: 0px 25px 0px 25px;
+    }
+}

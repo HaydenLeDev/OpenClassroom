@@ -6,17 +6,30 @@
 }
 
 .recherche{
+    cursor: pointer;
     border: none;
     border-radius: 0px 15px 15px 0px;
     color: var(--blanc);
-    background-color: var(--bleu-fonce);;
+    background-color: var(--bleu-fonce);
+    transition: all 500ms;
+}
+
+.recherche:hover{
+    background-color: var(--bleu-select);
 }
 
 /*Filtre theme*/
 
 .filtre_theme_items{
+    cursor: pointer;
     border: solid var(--gris-claire) 3px;
     border-radius: 50px;
+    transition: all 500ms;
+}
+
+.filtre_theme_items:hover{
+    cursor: pointer;
+    border: solid var(--bleu-fonce) 3px;
 }
 
 @media screen and (max-width: 768px) {
