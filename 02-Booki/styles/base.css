@@ -1,4 +1,5 @@
 :root{
+    --bleu-select: #013E9A;
     --bleu-fonce: #0065FC;
     --bleu-claire: #DEEBFF;
     --gris-claire: #F2F2F2;
@@ -15,5 +16,5 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
-

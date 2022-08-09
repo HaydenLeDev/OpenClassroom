@@ -1,19 +1,24 @@
-h1{
-
+a{
+    text-decoration: none;
+    color: black;
 }
 
-h2{
-
+h1{
+    font-size: 20px;
 }
 
 h3{
-
+    font-size: 16px;
 }
 
-.carte_titre{
-    font-size: 15px;
+h4{
+    font-size: 13px;
 }
 
-.carte_prix{
-    font-size: 13;
+p{
+    font-size: 12px;
+}
+
+#input_recherche{
+    font-weight: bold; 
 }

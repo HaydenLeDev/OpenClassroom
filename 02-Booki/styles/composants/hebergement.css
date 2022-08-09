@@ -8,3 +8,25 @@
     background-color: var(--gris-claire);
     border-radius: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .hebergement_marseille{
+        background-color: var(--blanc);
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .hebergement_populaires{
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hebergement_marseille{
+        background-color: var(--blanc);
+    }
+
+    .hebergement_populaires{
+        border-radius: 0px;
+    }
+}
