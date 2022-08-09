@@ -68,7 +68,14 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    .activite .titre{
+        padding-left: 30px;
+    }
 
+    .activite_grid{
+        margin: 30px;
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width: 768px) { 
@@ -89,7 +96,6 @@
     }
 
     .activite_grid{
-        padding: 0px 0px 0px 0px;
         margin: 30px;
         flex-direction: column;
         padding: 0px;
