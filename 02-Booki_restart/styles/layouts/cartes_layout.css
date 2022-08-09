@@ -46,33 +46,6 @@
     width: 60%;
 }
 
-/* Carte activite */
-.activite_carte{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    height: 100%;
-    width: 100%;
-}
-
-.moyenne_carte{
-    height: 270px;
-    width: 100%;
-}
-
-.petite_carte{
-    height: 40%;
-    width: 100%;
-}
-
-.titre_activite{
-    display: flex;
-    align-items: center;
-    padding: 15px 0px 15px 10px;
-    position: relative;
-    top: 50px;
-    z-index: 1;
-}
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {

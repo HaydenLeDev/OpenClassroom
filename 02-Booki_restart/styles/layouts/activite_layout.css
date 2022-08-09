@@ -1,105 +1,118 @@
 .activite{
-    padding: 30px 60px 60px 60px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 100px;
+    gap: 30px;
 }
 
 .activite_grid{
     display: flex;
+    height: 100%;
     gap: 30px;
-    height: 450px;
+    padding: 0px 60px 0px 60px;
+}
+
+.activite .titre{
+    padding-left: 60px;
 }
 
 .activite_partie{
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 420px;
     gap: 30px;
 }
 
-.activite_une_carte{
-    height: 100%;
+.double_carte{
+    display: block; 
+    gap: 30px;
     width: 50%;
+    height: 400px;
 }
 
-.activite_deux_carte{
+.grande_partie{
+    width: 50%;
+    height: 100%;
+}
+
+.carte_activite_moyenne{
+    width: 100%;
+    height: 60%;
+    padding-bottom: 20px;
+}
+
+.carte_activite_petite{
+    width: 100%;
+    height: 40%;
+}
+
+.carte_activite_titre{
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-    height: 100%;
-    width: 50%;
+    align-items: center;
+    position: relative;
+    top: -54px;
+    height: 50px;
+    padding-left: 10px;
+    z-index: 1;
+
+    background-color: var(--blanc);
+    border-radius: 0px 0px 10px 10px;
 }
+
+.activite img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .activite{
-        padding: 30px 30px 30px 30px;
-    }
 
-    .activite_grid{
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .activite_partie{
-        width: 100%;
-        height: 450px;
-    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { 
     .activite{
-        padding: 25px 25px 25px 25px;
-        display: flex;
-        flex-direction: column;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
         gap: 0px;
-    }
-    
-    .activite_grid{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .activite_partie{
-        flex-direction: column;
-        width: 100%;
-        gap: 20px;
-    }
-    
-    .activite_une_carte{
-        height: 150px;
-        width: 100%;
-    }
-    
-    .activite_deux_carte{
-        flex-direction: column;
-        width: 100%;
-        gap: 20px;
-    }
-    
-    .activite_carte{
-        flex-direction: column;
-        height: 150px;
-        width: 100%;
-    }
-    
-    .moyenne_carte{
-        height: 100%;
-        width: 100%;
-    }
-    
-    .petite_carte{
-        height: 100%;
-        width: 100%;
-    }
-    
-    .titre_activite{
-        display: flex;
-        align-items: center;
-        padding: 15px 0px 15px 10px;
     }
 
     .activite .titre{
-        padding-bottom: 25px;
+        padding-left: 30px;
+    }
+
+    .activite_partie{
+        flex-direction: column;
+        padding-bottom: 90px;
+        gap: 0px;
+    }
+
+    .activite_grid{
+        padding: 0px 0px 0px 0px;
+        margin: 30px;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .grande_partie{
+        height: 150px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .carte_activite_petite{
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .carte_activite_moyenne{
+        height: 150px;
+        padding-bottom: 30px;
+    }
+
+    .double_carte{
+        gap: 0px;
+        width: 100%;
     }
 }

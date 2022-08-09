@@ -31,17 +31,3 @@ img{
 }
 
 /* Carte activite */
-.activite_carte{
-    background-color: var(--blanc);
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-}
-
-.activite_carte img{
-    border-radius: 12px 12px 0px 0px;
-}
-
-.titre_activite{
-    border-radius: 0px 0px 12px 12px;
-    background-color: var(--blanc);
-}
