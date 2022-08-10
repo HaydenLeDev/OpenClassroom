@@ -58,7 +58,7 @@
         visibility: visible;
     }
 
-    .recherche p{
+    .recherche .paragraphe{
         width: 0px;
         visibility: hidden;
     }

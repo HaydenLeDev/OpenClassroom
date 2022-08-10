@@ -7,10 +7,6 @@
         padding-left: 120px;
     }
 
-    header img{
-        content: url(../../images/logo/Booki.png);
-    }
-
     .liste_menu {
         display: flex;
         list-style: none;
