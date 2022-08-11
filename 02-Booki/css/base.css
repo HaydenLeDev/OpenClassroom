@@ -1,3 +1,22 @@
+/* Import styles layout */
+@import url(./layouts/activite_layout.css);
+@import url(./layouts/cartes_layout.css);
+@import url(./layouts/filtres_layout.css);
+@import url(./layouts/footer_layout.css);
+@import url(./layouts/header_layout.css);
+@import url(./layouts/hebergement_layout.css);
+
+/* Import styles composant */
+@import url(./composants/cartes.css);
+@import url(./composants/categorie.css);
+@import url(./composants/font.css);
+@import url(./composants/footer.css);
+@import url(./composants/hebergement.css);
+@import url(./composants/icones.css);
+@import url(./composants/menu.css);
+
+
+
 :root{
     --bleu-select: #013E9A;
     --bleu-fonce: #0065FC;
