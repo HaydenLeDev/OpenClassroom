@@ -4,7 +4,7 @@
         align-items: center;
         height: 100px;
         width: 100%;
-        padding-left: 120px;
+       
     }
 
     .liste_menu {
@@ -23,6 +23,8 @@
     }
 
     .logo img {
+        position: relative;
+        left: 60px;
         width: 120px;
     }
 
