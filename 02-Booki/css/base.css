@@ -37,3 +37,10 @@ body{
     align-items: center;
     gap: 30px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+}

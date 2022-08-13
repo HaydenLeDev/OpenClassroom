@@ -1,15 +1,9 @@
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 50px;
-}
-
 .filtre {
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-left: 60px;
+    width: 100%;
 }
 
 .icone {
@@ -107,8 +101,10 @@ main {
 
 @media screen and (max-width: 768px) {
     .filtre{
-        margin-left: 20px;
+        margin-left:20px;
+        max-width: calc(100% - 20px);
     }
+
 
     .filtre_theme{
         align-items: flex-start;
@@ -127,5 +123,15 @@ main {
 
     .recherche .paragraphe {
         padding: 0px;
+        width: 50px;
     }
+
+    .filtre_recherche{
+        max-width:calc(100% - 20px);
+        overflow-x: hidden; /*Overflow - x evite les déboredement */
+    }
+
+    #input_recherche{
+        width: calc(100% - 100px);
+    } 
 }
