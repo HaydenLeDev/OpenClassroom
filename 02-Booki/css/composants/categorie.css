@@ -1,3 +1,5 @@
+/* CSS pour le style des catégories*/
+
 /*Recherche lieu*/
 
 #input_recherche{
@@ -32,6 +34,7 @@
     border: solid var(--bleu-fonce) 3px;
 }
 
+/* Responsive */
 @media screen and (max-width: 768px) {
     .filtre_recherche button{
         margin-left: -10px;

@@ -1,3 +1,6 @@
+/* CSS pour le style pour le menu*/
+
+
 .liste_menu {
     list-style: none;
 }
@@ -23,6 +26,7 @@
     color: var(--bleu-fonce);
 }
 
+/* Version responsive */
 @media screen and (max-width: 768px) {
 
     .liste_menu li{

@@ -1,3 +1,6 @@
+/* Défini les fondation de la page*/
+
+/* Import */
 /* Import styles layout */
 @import url(./layouts/activite_layout.css);
 @import url(./layouts/cartes_layout.css);
@@ -15,32 +18,35 @@
 @import url(./composants/icones.css);
 @import url(./composants/menu.css);
 
-
-
-:root{
-    --bleu-select: #013E9A;
-    --bleu-fonce: #0065FC;
-    --bleu-claire: #DEEBFF;
-    --gris-claire: #F2F2F2;
+/* Déclaration des variables de couleur */
+:root {
+    --bleu-select: #013e9a;
+    --bleu-fonce: #0065fc;
+    --bleu-claire: #deebff;
+    --gris-claire: #f2f2f2;
     --blanc: #fff;
 }
 
-*{
-    margin:0;
+/* Reset css */
+* {
+    margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
-body{
+/* Layout du body */
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
-
+/* Layout du main*/
 main {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 50px;
 }
+
+

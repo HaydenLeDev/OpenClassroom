@@ -1,3 +1,6 @@
+/* CSS pour le style des sections d'hebergement*/
+
+
 .hebergement_marseille{
     background-color: var(--gris-claire);
     border-radius: 20px;
@@ -9,6 +12,7 @@
     border-radius: 20px;
 }
 
+/* version responsive */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .hebergement_marseille{
         background-color: var(--blanc);

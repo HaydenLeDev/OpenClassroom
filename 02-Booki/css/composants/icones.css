@@ -1,5 +1,7 @@
-/*Recherche lieu*/
+/* CSS pour le style pour les icones*/
 
+
+/*Recherche lieu*/
 .filtre_recherche .icone{
     border-radius: 15px 0px 0px 15px;
     background-color: var(--gris-claire);
@@ -7,7 +9,6 @@
 
 
 /*Filtre theme*/
-
 .filtre_theme_items .icone{
     background-color: var(--bleu-claire);
     border-radius: 50px;
@@ -34,7 +35,7 @@
 }
 
 
-/* Carte */
+/* icone des cartes */
 .carte_note i{
     font-size:12px
 }
@@ -47,6 +48,8 @@
     color: var(--gris-claire);
 }
 
+
+/* Version responsive pour le logo recherche */
 @media screen and (max-width: 768px) {
     .filtre_recherche .icone{
         border-radius: 15px 0px 0px 15px;
