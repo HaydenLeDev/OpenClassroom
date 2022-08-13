@@ -1,3 +1,5 @@
+/* CSS pour le layout une carte*/
+
 .carte{
     display: flex;
     flex-direction: column;
@@ -47,7 +49,7 @@
 }
 
 
-
+/* Version responsive */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .carte{
         width: 50%;

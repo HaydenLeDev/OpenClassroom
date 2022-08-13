@@ -1,3 +1,5 @@
+/* CSS pour le layout des hebergements */
+
 .hebergement {
     display: flex;
     justify-content: space-between;
@@ -5,6 +7,14 @@
     margin: 0px 60px 0px 60px;
 }
 
+.table {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+}
+
+/* Hebergemennts de marseille*/
 .hebergement_marseille {
     display: flex;
     flex-direction: column;
@@ -13,18 +23,12 @@
     width: 67%;
 }
 
-.table{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    gap: 30px;
-}
-
 .hebergement_marseille .ligne {
     display: flex;
     gap: 30px;
 }
 
+/* Hebergemennts populaires*/
 .hebergement_populaires {
     display: flex;
     flex-direction: column;
@@ -39,21 +43,22 @@
     align-items: center;
 }
 
+/* Version responsive tablette*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .hebergement {
         margin: 0px;
         flex-direction: column-reverse;
     }
 
-    .hebergement_marseille .titre{
+    .hebergement_marseille .titre {
         margin-left: 30px;
     }
 
-    .table{
-       margin: 0px 30px 0px 30px;
+    .table {
+        margin: 0px 30px 0px 30px;
     }
 
-    .hebergement_marseille{
+    .hebergement_marseille {
         padding: 0px;
     }
 
@@ -62,27 +67,28 @@
         padding: 0px 0px 30px 0px;
     }
 
-    .hebergement_populaires .titre{
+    .hebergement_populaires .titre {
         margin: 30px 30px 0px 30px;
     }
 }
 
+/* Version responsive smartphone*/
 @media screen and (max-width: 768px) {
     .hebergement {
         flex-direction: column-reverse;
         margin: 0px;
     }
 
-    .hebergement_marseille .titre{
+    .hebergement_marseille .titre {
         margin-left: 25px;
     }
 
-    .hebergement_marseille{
+    .hebergement_marseille {
         width: 100%;
         padding: 0px;
     }
 
-    .table{
+    .table {
         flex-direction: column;
         margin: 0px 30px 0px 25px;
     }
@@ -97,10 +103,9 @@
     .hebergement_populaires {
         width: 100%;
         padding: 30px 0px 30px 0px;
-
     }
 
-    .hebergement_populaires .titre{
+    .hebergement_populaires .titre {
         margin: 0px 25px 0px 25px;
     }
 }

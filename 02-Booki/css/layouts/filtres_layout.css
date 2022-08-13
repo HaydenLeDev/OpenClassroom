@@ -1,3 +1,5 @@
+/* CSS pour le layout pour des filtre */
+
 .filtre {
     display: flex;
     flex-direction: column;
@@ -14,6 +16,7 @@
     height: 50px;
     width: 50px;
 }
+
 /*Recherche Titre*/
 .filtre_titre{
     display: flex;
@@ -49,7 +52,6 @@
 }
 
 /*Filtre theme*/
-
 .filtre_theme {
     display: flex;
     align-items: center;
@@ -89,6 +91,8 @@
     width: 20px;
 }
 
+
+/* Version responsive */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .filtre_theme{
         align-items: flex-start;
