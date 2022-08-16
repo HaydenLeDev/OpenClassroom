@@ -23,7 +23,7 @@
 
 /*Filtre info*/
 .filtre_info .icone{
-    font-size: 12px;
+    font-size: 15px;
     border: solid 2px var(--gris-claire);
     border-radius: 20px;
     color:var(--bleu-fonce)
@@ -37,7 +37,7 @@
 
 /* icone des cartes */
 .carte_note i{
-    font-size:12px
+    font-size:15px
 }
 
 .valide{
