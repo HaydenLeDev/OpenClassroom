@@ -11,7 +11,7 @@
 }
 
 .liste_menu li:hover{
-    border-top: 3px solid var(--bleu-fonce);
+    border-top: 5px solid var(--bleu-fonce);
 }
 
 .liste_menu li:hover a{
@@ -19,7 +19,7 @@
 }
 
 #selected{
-    border-top: 3px solid var(--bleu-fonce);
+    border-top: 5px solid var(--bleu-fonce);
 }
 
 #selected a{
@@ -31,18 +31,18 @@
 
     .liste_menu li{
         cursor: pointer;
-        border-bottom: 3px solid var(--gris-claire);
+        border-bottom: 5px solid var(--gris-claire);
         border-top: none;
     }
 
     .liste_menu li:hover{
         border-top: none;
-        border-bottom: 3px solid var(--bleu-fonce);
+        border-bottom: 5px solid var(--bleu-fonce);
     }
 
     #selected{
         border-top: none;
-        border-bottom: 3px solid var(--bleu-fonce);
+        border-bottom: 5px solid var(--bleu-fonce);
     }
     
     #selected a{

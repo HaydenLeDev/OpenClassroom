@@ -106,7 +106,7 @@
 @media screen and (max-width: 768px) {
     .filtre{
         margin-left:20px;
-        max-width: calc(100% - 20px);
+        width: calc(100% - 40px);
     }
 
 
@@ -131,7 +131,7 @@
     }
 
     .filtre_recherche{
-        max-width:calc(100% - 20px);
+        width: 100%;
         overflow-x: hidden; /*Overflow - x evite les déboredement */
     }
 

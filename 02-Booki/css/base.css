@@ -34,6 +34,9 @@
     font-family: "Raleway", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* Layout du body */
 body {
     display: flex;
