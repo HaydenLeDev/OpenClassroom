@@ -8,6 +8,7 @@
 }
 
 #input_recherche::placeholder{
+    opacity: 1;
     color: black;
 }
 
