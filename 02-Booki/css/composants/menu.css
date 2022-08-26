@@ -7,12 +7,13 @@
 
 .liste_menu li{
     cursor: pointer;
-    border-top: 3px solid white;
+    border-top: 5px solid white;
 }
 
 .liste_menu li:hover{
     border-top: 5px solid var(--bleu-fonce);
 }
+
 
 .liste_menu li:hover a{
     color: var(--bleu-fonce);

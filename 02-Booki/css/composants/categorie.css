@@ -7,6 +7,10 @@
     border-radius: 0px 0px 0px 0px;
 }
 
+#input_recherche::placeholder{
+    color: black;
+}
+
 .recherche{
     cursor: pointer;
     border: none;
